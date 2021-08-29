@@ -1,6 +1,6 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
-import Dashboard from './src/Dashboard';
+import Dashboard from './src/screens/Dashboard';
 import theme from './src/global/theme';
 import AppLoading from 'expo-app-loading';
 import{
@@ -10,7 +10,11 @@ import{
   Poppins_700Bold
 
 } from '@expo-google-fonts/poppins'
-import DashboardTeste from './src/DashboardTeste';
+import DashboardTeste from './src/screens/DashboardTeste';
+import { Register } from './src/screens/Register';
+import { CategorySelect } from './src/screens/CategorySelect';
+import { categories } from './src/utils/categories';
+
 export default function App() {
   const [fontsLoaded]= useFonts({
     Poppins_400Regular,
@@ -24,7 +28,7 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <DashboardTeste/>
+      <Register/>
     </ThemeProvider>
   )
 }

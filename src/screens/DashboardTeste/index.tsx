@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text } from "react-native";
-import { Container, ExitIcon, Header2, UserGreetings, UserImage, UserInfo2, UserText, Wrapper } from "../DashboardTeste/styles";
+import { Container, ExitIcon, Header2, UserGreetings, UserImage, UserInfo2, UserText, Wrapper } from "./styles";
 
 
 export default function DashboardTeste(){
