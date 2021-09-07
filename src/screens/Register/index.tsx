@@ -24,8 +24,9 @@ import {yupResolver} from '@hookform/resolvers/yup'
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { CategorySelect } from '../CategorySelect';
 import { InputForm } from '../../components/Form/InputForm';
+import { useAuth } from '../../hooks/auth';
 
-type NavigationProps = {
+export type NavigationProps = {
     navigate:(screen:string) => void;
  }
 
@@ -46,7 +47,7 @@ const schema = Yup.object().shape({
     .required('O valor é obrigatório')
     
 })
-export const dataKey ='@gofinances:transactions';
+
 export function Register(){
     
     const [category,setCategory]=useState({
@@ -67,6 +68,7 @@ export function Register(){
 
     const [transactionType, setTransactionType] = useState('');
     const [categoryModalOpen,setCategoryModalOpen]=useState(false);
+    const {user} = useAuth();
 
     function handleTransactionTypeSelect(type:'positive' | 'negative'){
         setTransactionType(type);
@@ -81,7 +83,7 @@ export function Register(){
     }
 
     async function handleRegister(form:FormData){
-
+        const dataKey = '@gofinances:transactions_user:'+user.id;
         if(!transactionType)
         return Alert.alert('Selecione o tipo da transação');
 
