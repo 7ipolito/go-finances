@@ -1,6 +1,10 @@
 {
+<<<<<<< HEAD
   "compilerOptions": {
       "strict": true
   },
+=======
+  "compilerOptions": {},
+>>>>>>> fork/main
   "extends": "expo/tsconfig.base"
 }
