@@ -1,5 +1,6 @@
 import { RFValue } from "react-native-responsive-fontsize";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import styled from "styled-components/native";;
 
 interface ContainerProps{
@@ -30,6 +31,8 @@ export const Amount= styled.Text`
     font-size: ${RFValue(15)}px;
 `
 =======
+=======
+>>>>>>> fork/main
 import styled from "styled-components/native";
 
 interface ContainerProps {
@@ -62,4 +65,7 @@ export const Amount = styled.Text`
   font-family:  ${({theme}) => theme.fonts.bold};
   font-size: ${RFValue(15)}px;
 `;
+<<<<<<< HEAD
+>>>>>>> fork/main
+=======
 >>>>>>> fork/main

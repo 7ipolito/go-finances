@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React,{useState} from 'react';
 import { Button } from '../../components/Form/Button';
 import { TransactionTypeButton } from '../../components/Form/Button/TransactionTypeButton';
@@ -194,6 +195,8 @@ export function Register(){
         </TouchableWithoutFeedback>
     )
 =======
+=======
+>>>>>>> fork/main
 import React, { 
   useState
 } from 'react';
@@ -381,5 +384,8 @@ export function Register() {
       </Container>
     </TouchableWithoutFeedback>
   )
+<<<<<<< HEAD
+>>>>>>> fork/main
+=======
 >>>>>>> fork/main
 }

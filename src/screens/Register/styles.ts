@@ -3,6 +3,7 @@ import styled from "styled-components/native";
 
 export const Container = styled.View`
 <<<<<<< HEAD
+<<<<<<< HEAD
     flex: 1;
     background-color: ${({theme})=> theme.colors.background};
 `
@@ -37,6 +38,8 @@ export const TransactionType = styled.View`
     margin-top: 8px;
     margin-bottom: 16px;
 =======
+=======
+>>>>>>> fork/main
   flex: 1;
   background-color: ${({ theme}) => theme.colors.background} ;
 `;
@@ -77,5 +80,8 @@ export const TransactionTypes = styled.View`
 
   margin-top: 8px;
   margin-bottom: 16px;
+<<<<<<< HEAD
+>>>>>>> fork/main
+=======
 >>>>>>> fork/main
 `;

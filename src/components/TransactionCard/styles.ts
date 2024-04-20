@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import styled from 'styled-components/native';
 import { Feather } from '@expo/vector-icons';
 import { RFValue } from 'react-native-responsive-fontsize';
@@ -55,6 +56,8 @@ export const Date = styled.Text`
     color: ${({theme})=>theme.colors.text};
 `
 =======
+=======
+>>>>>>> fork/main
 import styled from "styled-components/native";
 import { Feather } from '@expo/vector-icons';
 import { RFValue } from "react-native-responsive-fontsize";
@@ -114,4 +117,7 @@ export const Date = styled.Text`
   font-size: ${RFValue(14)}px;
   color: ${({theme}) => theme.colors.text};
 `;
+<<<<<<< HEAD
+>>>>>>> fork/main
+=======
 >>>>>>> fork/main

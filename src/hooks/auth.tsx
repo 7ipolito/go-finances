@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 import React,{ 
     createContext,
@@ -148,6 +149,8 @@ function useAuth(){
 
 export {AuthProvider,useAuth}
 =======
+=======
+>>>>>>> fork/main
 import React, { 
   createContext,
   ReactNode,
@@ -297,5 +300,9 @@ function useAuth() {
   return context;
 }
 
+<<<<<<< HEAD
+export { AuthProvider, useAuth }
+>>>>>>> fork/main
+=======
 export { AuthProvider, useAuth }
 >>>>>>> fork/main

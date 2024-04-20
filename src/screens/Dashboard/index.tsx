@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import React, { useCallback, useEffect } from 'react';
 import { useState } from 'react';
@@ -228,6 +229,8 @@ export function Dashboard(){
     )
 }
 =======
+=======
+>>>>>>> fork/main
 import React, { useCallback } from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
@@ -464,4 +467,7 @@ export function Dashboard() {
     </Container>
   );
 }
+<<<<<<< HEAD
+>>>>>>> fork/main
+=======
 >>>>>>> fork/main

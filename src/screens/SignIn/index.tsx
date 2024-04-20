@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React,{useContext,useState} from 'react';
 import LogoSvg from '../../assets/logo.svg';
 import AppleSvg from '../../assets/apple.svg';
@@ -107,6 +108,8 @@ export function SignIn(){
         </Container>
     )
 =======
+=======
+>>>>>>> fork/main
 import React from 'react';
 
 import { RFValue } from 'react-native-responsive-fontsize';
@@ -209,5 +212,8 @@ export function SignIn() {
       </Footer>
     </Container>
   );
+<<<<<<< HEAD
+>>>>>>> fork/main
+=======
 >>>>>>> fork/main
 }

@@ -2,6 +2,7 @@ import React from 'react';
 
 import {
 <<<<<<< HEAD
+<<<<<<< HEAD
      Container,
      Title,
      Amount
@@ -24,6 +25,8 @@ export function HistoryCard({
         </Container>
     )
 =======
+=======
+>>>>>>> fork/main
   Container,
   Title,
   Amount
@@ -46,5 +49,8 @@ export function HistoryCard({
       <Amount>{ amount }</Amount>
     </Container>
   )
+<<<<<<< HEAD
+>>>>>>> fork/main
+=======
 >>>>>>> fork/main
 }

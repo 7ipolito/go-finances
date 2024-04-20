@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import styled from 'styled-components/native';
 import {RFPercentage, RFValue} from 'react-native-responsive-fontsize'
 import {Feather} from '@expo/vector-icons'
@@ -111,6 +112,8 @@ export const TransactionList = styled(
     align-items: center;
   `
 =======
+=======
+>>>>>>> fork/main
 import styled from "styled-components/native";
 import { FlatList } from 'react-native';
 import { Feather } from '@expo/vector-icons'
@@ -223,5 +226,9 @@ export const LoadContainer = styled.View`
   flex: 1;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
+`;
+>>>>>>> fork/main
+=======
 `;
 >>>>>>> fork/main

@@ -1,6 +1,7 @@
 import styled from "styled-components/native";
 import { RFValue } from "react-native-responsive-fontsize";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { ScrollView } from "react-native";
 import {BorderlessButton} from 'react-native-gesture-handler'
 import { Feather } from "@expo/vector-icons";
@@ -58,6 +59,8 @@ export const LoadContainer = styled.View`
     align-items: center;
 `
 =======
+=======
+>>>>>>> fork/main
 import { BorderlessButton } from "react-native-gesture-handler";
 import {  Feather } from '@expo/vector-icons';
 
@@ -120,4 +123,7 @@ export const LoadContainer = styled.View`
 `;
 
 
+<<<<<<< HEAD
+>>>>>>> fork/main
+=======
 >>>>>>> fork/main

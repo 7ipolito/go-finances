@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { RFValue } from "react-native-responsive-fontsize";
 import styled from "styled-components/native";
 import {Feather} from '@expo/vector-icons';
@@ -60,6 +61,8 @@ export const Footer= styled.View`
 
 `;
 =======
+=======
+>>>>>>> fork/main
 import styled from "styled-components/native";
 import { RFValue } from "react-native-responsive-fontsize";
 import { Feather } from '@expo/vector-icons';
@@ -128,4 +131,7 @@ export const Footer = styled.View`
 
 
 
+<<<<<<< HEAD
+>>>>>>> fork/main
+=======
 >>>>>>> fork/main

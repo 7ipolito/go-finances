@@ -2,6 +2,7 @@ const { getDefaultConfig } = require('expo/metro-config');
 
 module.exports = (async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     const {
       resolver: { sourceExts, assetExts }
     } = await getDefaultConfig(__dirname);
@@ -16,6 +17,8 @@ module.exports = (async () => {
     };
   })();
 =======
+=======
+>>>>>>> fork/main
   const {
     resolver: { sourceExts, assetExts }
   } = await getDefaultConfig(__dirname);
@@ -29,4 +32,7 @@ module.exports = (async () => {
     }
   };
 })();
+<<<<<<< HEAD
+>>>>>>> fork/main
+=======
 >>>>>>> fork/main

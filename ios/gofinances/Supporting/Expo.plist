@@ -2,6 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <<<<<<< HEAD
+<<<<<<< HEAD
 <dict>
         <key>EXUpdatesSDKVersion</key>
         <string>YOUR-APP-SDK-VERSION-HERE</string>
@@ -10,6 +11,8 @@
 </dict>
 </plist>
 =======
+=======
+>>>>>>> fork/main
   <dict>
     <key>EXUpdatesSDKVersion</key>
     <string>42.0.0</string>
@@ -22,5 +25,9 @@
     <key>EXUpdatesLaunchWaitMs</key>
     <integer>0</integer>
   </dict>
+<<<<<<< HEAD
+</plist>
+>>>>>>> fork/main
+=======
 </plist>
 >>>>>>> fork/main

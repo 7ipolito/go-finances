@@ -1,8 +1,12 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "compilerOptions": {
       "strict": true
   },
+=======
+  "compilerOptions": {},
+>>>>>>> fork/main
 =======
   "compilerOptions": {},
 >>>>>>> fork/main

@@ -1,5 +1,6 @@
 import React from 'react';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { RectButtonProps } from 'react-native-gesture-handler';
 import { SvgProps } from 'react-native-svg';
 import{
@@ -26,6 +27,8 @@ export function SignInSocialButton({
         </Button>
     )   
 =======
+=======
+>>>>>>> fork/main
 
 import { RectButtonProps } from 'react-native-gesture-handler';
 import { SvgProps } from 'react-native-svg';
@@ -58,5 +61,8 @@ export function SignInSocialButton({
       <Text>{ title }</Text>
     </Button>
   )
+<<<<<<< HEAD
+>>>>>>> fork/main
+=======
 >>>>>>> fork/main
 }

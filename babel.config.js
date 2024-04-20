@@ -3,7 +3,12 @@ module.exports = function(api) {
   return {
     presets: ['babel-preset-expo'],
 <<<<<<< HEAD
+<<<<<<< HEAD
     plugins: ['react-native-reanimated/plugin','inline-dotenv']
+=======
+    plugins: ['react-native-reanimated/plugin'],
+    plugins: ['inline-dotenv']
+>>>>>>> fork/main
 =======
     plugins: ['react-native-reanimated/plugin'],
     plugins: ['inline-dotenv']

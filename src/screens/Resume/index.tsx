@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React, { useCallback } from 'react';
 import { HistoryCard } from '../../components/HistoryCard';
 import { Title,
@@ -193,6 +194,8 @@ export function Resume(){
         </Container>
     )
 =======
+=======
+>>>>>>> fork/main
 import React,{
   useState, 
   useCallback
@@ -382,5 +385,8 @@ export function Resume() {
       }
     </Container>
   );
+<<<<<<< HEAD
+>>>>>>> fork/main
+=======
 >>>>>>> fork/main
 }

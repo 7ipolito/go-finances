@@ -1,5 +1,6 @@
 import React from 'react';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import {NavigationContainer} from '@react-navigation/native';
 import { AuthRoutes } from './auth.routes';
 
@@ -16,6 +17,8 @@ export function Routes(){
     );
 }
 =======
+=======
+>>>>>>> fork/main
 import { NavigationContainer } from '@react-navigation/native';
 
 import { AuthRoutes } from './auth.routes';
@@ -34,5 +37,9 @@ export function Routes() {
       }
     </NavigationContainer>
   )
+<<<<<<< HEAD
+}
+>>>>>>> fork/main
+=======
 }
 >>>>>>> fork/main

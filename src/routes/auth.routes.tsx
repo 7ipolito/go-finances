@@ -1,6 +1,7 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { SignIn } from '../screens/SignIn';
 
 const {Navigator,Screen} = createStackNavigator();
@@ -20,6 +21,8 @@ export function AuthRoutes(){
     )
 }
 =======
+=======
+>>>>>>> fork/main
 
 import { SignIn } from '../screens/SignIn';
 
@@ -36,5 +39,9 @@ export function AuthRoutes() {
       />
     </Navigator>
   )
+<<<<<<< HEAD
+}
+>>>>>>> fork/main
+=======
 }
 >>>>>>> fork/main

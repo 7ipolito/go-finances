@@ -3,7 +3,11 @@
     "name": "gofinances",
     "slug": "gofinances",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "scheme":"gofinances",
+=======
+    "scheme": "gofinances",
+>>>>>>> fork/main
 =======
     "scheme": "gofinances",
 >>>>>>> fork/main

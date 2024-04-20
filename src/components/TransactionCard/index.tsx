@@ -1,6 +1,7 @@
 import React from 'react';
 import { categories } from '../../utils/categories';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import {
     Container,
     Title,
@@ -53,6 +54,8 @@ export function TransactionCard({data}:Props){
         </Container>
     )
 =======
+=======
+>>>>>>> fork/main
 
 import { 
   Container,
@@ -102,5 +105,8 @@ export function TransactionCard({ data }: Props) {
       </Footer>
     </Container>
   );
+<<<<<<< HEAD
+>>>>>>> fork/main
+=======
 >>>>>>> fork/main
 }
